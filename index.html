@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Brew Verse</title>
+</head>
+
+<body class="bg-stone-50 text-[#4c2c18]">
+  <header class="bg-[#4c2c18] sticky top-0 z-50 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center gap-3">
+      <a href="index.html" class="shrink-0">
+        <img src="images/Brew Verse Logo.png" alt="Brew Verse Logo"
+          class="w-12 h-12 sm:w-14 sm:h-12 object-contain rounded-xl">
+      </a>
+      <a href="index.html" class="text-2xl sm:text-3xl font-bold text-amber-200 mr-auto">Brew Verse</a>
+      <nav class="hidden md:flex items-center gap-5 font-semibold"><a href="index.html"
+          class="text-amber-200 hover:text-amber-200 transition">Home</a>
+        <a href="about.html" class="text-white hover:text-amber-200 transition">About Us</a>
+        <a href="menu.html" class="text-white hover:text-amber-200 transition">Menu</a>
+        <a href="contact.html" class="text-white hover:text-amber-200 transition">Contact Us</a>
+      </nav>
+      <div class="hidden sm:flex items-center bg-white rounded-lg overflow-hidden">
+        <i class="fa-solid fa-magnifying-glass text-stone-500 ml-3"></i>
+        <input type="text" placeholder="Search..." class="w-36 lg:w-48 px-3 py-2 outline-none text-stone-800">
+      </div>
+      <span class="text-white text-xl px-2"><i class="fa-solid fa-cart-shopping"></i></span>
+      <details class="md:hidden relative">
+        <summary class="list-none cursor-pointer text-white text-xl"><i class="fa-solid fa-bars"></i></summary>
+        <nav class="absolute right-0 mt-3 w-48 rounded-xl bg-[#4c2c18] p-4 shadow-xl flex flex-col gap-4 font-semibold">
+          <a href="index.html" class="text-amber-200 hover:text-amber-200 transition">Home</a>
+          <a href="about.html" class="text-white hover:text-amber-200 transition">About Us</a>
+          <a href="menu.html" class="text-white hover:text-amber-200 transition">Menu</a>
+          <a href="contact.html" class="text-white hover:text-amber-200 transition">Contact Us</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+
+  <footer class="bg-[#634530] text-white mt-16">
+    <div class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div>
+        <img src="images/Brew Verse Logo.png" alt="Brew Verse Logo" class="w-36 h-36 object-contain mx-auto sm:mx-0">
+        <hr class="border-amber-100/40 my-4">
+        <h3 class="text-xl font-bold mb-3">Contact Us:</h3>
+        <p>Call: +91 9166023878</p>
+        <p>Email: brewverse@gmail.com</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+        <div class="flex flex-col gap-3">
+          <a href="index.html" class="hover:text-amber-200">Home</a>
+          <a href="about.html" class="hover:text-amber-200">About Us</a>
+          <a href="menu.html" class="hover:text-amber-200">Menu</a>
+          <a href="contact.html" class="hover:text-amber-200">Contact Us</a>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold mb-4">Our Policies</h3>
+        <div class="space-y-3 text-sm">
+          <p>TERMS & CONDITIONS</p>
+          <p>PRIVACY POLICY</p>
+          <p>SHIPPING POLICY</p>
+          <p>RETURN POLICY</p>
+          <p>GRIEVANCE REDRESSAL POLICY</p>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold mb-4">Follow Us:</h3>
+        <div class="flex gap-3 flex-wrap">
+          <img src="images/2227.jpg" class="w-12 h-12 rounded-full object-cover">
+          <img src="images/410199-PD37U2-851.jpg" class="w-12 h-12 rounded-full object-cover">
+          <img src="images/6881700d-6ff5-4da2-9ca7-49ffdfd18cd1.jpg" class="w-12 h-12 rounded-full object-cover">
+          <img src="images/v997-05.jpg" class="w-12 h-12 rounded-full object-cover">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
